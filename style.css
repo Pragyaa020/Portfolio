@@ -199,9 +199,9 @@ html{
     text-align:justify;
     padding:10px;
     border-radius:15px;
-    background:linear-gradient(to top, rgb(255,45,45) 50%,white 50%);
+/*     background:linear-gradient(to top, rgb(255,45,45) 50%,white 50%); */
     background-size:100% 200%;
-    transition:all .8s;
+/*     transition:all .8s; */
 }
 
 .box:hover{
