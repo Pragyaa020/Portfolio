@@ -201,15 +201,15 @@ html{
     border-radius:15px;
 /*     background:linear-gradient(to top, rgb(255,45,45) 50%,white 50%); */
     background-size:100% 200%;
-/*     transition:all .8s; */
+    transition:all .8s;
 }
 
-.box:hover{
+/* .box:hover{
     background-position:left bottom;
     color:white;
     border:none;
     box-shadow:0 0 20px rgb(255,45,45);
-}
+} */
 
 .box img{
     width:80px;
