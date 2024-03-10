@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(244, 188, 253);
+}
+
+.mouse_move {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mouse_move h2 {
+    position: relative;
+    font-size: 100px;
+    color: rgb(33, 30, 30);
+}
+
+.mouse_move img {
+    position: absolute;
+}
+
+#img1 {
+    top: 80px;
+    left: 80px;
+    height: 250px;
+    width: 250px;
+}
+
+#img2 {
+    bottom: 80px;
+    right: 80px;
+    height: 250px;
+    width: 250px;
+}

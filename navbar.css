@@ -1,0 +1,35 @@
+
+	
+	/* styling article tag component */
+	article {
+		position: fixed;
+		margin-left: 10px;
+	}
+		
+	/* styling navlist */
+	#navlist {
+		background-color: #0074D9;
+		position: fixed;
+		left: 45%;
+		top: -60px;
+		width: auto;
+		display: block;
+		transition: top 0.3s;
+	}
+		
+	/* styling navlist anchor element */
+	#navlist a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 12px;
+		text-decoration: none;
+		font-size: 15px;
+	}
+		
+	/* hover effect of navlist anchor element */
+	#navlist a:hover {
+		background-color: #ddd;
+		color: black;
+	}
