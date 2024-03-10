@@ -14,7 +14,7 @@ html{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
-    position: sticky;
+    position:sticky ;
     top:0;
 }
 .navbar ul{
@@ -199,17 +199,17 @@ html{
     text-align:justify;
     padding:10px;
     border-radius:15px;
-/*     background:linear-gradient(to top, rgb(255,45,45) 50%,white 50%); */
+    background:linear-gradient(to top, rgb(255,45,45) 50%,white 50%);
     background-size:100% 200%;
     transition:all .8s;
 }
 
-/* .box:hover{
+.box:hover{
     background-position:left bottom;
     color:white;
     border:none;
     box-shadow:0 0 20px rgb(255,45,45);
-} */
+}
 
 .box img{
     width:80px;
@@ -219,6 +219,47 @@ html{
 }
 
 
+/*projects section*/
+#projects{
+    display:flex;
+    flex-direction: column;
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+    align-items:center;
+    padding: 20px;
+    height: 100vh;
+    
+}
+
+
+.projects ul{
+    list-style: square;
+    margin:20px 0px;
+    line-height: 2em;
+}
+
+.projects ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight:bold;
+}
+
+.projects ul li a{
+    text-decoration:none;
+    color:black;
+    padding: 8px 25px;
+    transition: all .5s ease;
+
+
+}
+
+.projects ul li a:hover{
+   
+    color:rgb(57, 2, 57);
+
+    
+
+}
 
 /*contact section*/
 #contact{
